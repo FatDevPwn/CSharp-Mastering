@@ -1,3 +1,5 @@
+By far, the best way to learn how to code is to write as much code as possible. Entering code yourself in each exercise and solving small coding challenges will speed your learning.
+
 ## Inspiration :
 
 * https://twitter.com/Prathkum/status/1571549605883682816?t=uDoBLjec0-F0T0MafZynVg&s=08
