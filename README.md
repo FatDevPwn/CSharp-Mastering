@@ -2,6 +2,8 @@ By far, the best way to learn how to code is to write as much code as possible. 
 
 You might be tempted to select Copy or Run and skip all the keystrokes. However, we encourage you to enter this line of code yourself. Entering the code yourself builds muscle memory and helps you gain insights that you wouldn't get otherwise.
 
+Buat Note CheatSheet hafal semua parenthisis macam piano 
+
 ## Inspiration :
 
 * https://twitter.com/Prathkum/status/1571549605883682816?t=uDoBLjec0-F0T0MafZynVg&s=08
