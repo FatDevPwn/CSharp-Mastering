@@ -22,3 +22,5 @@ You are absolutely right my friend. I had studied very much old languages when I
 # References :
 
 1. https://dotnet.microsoft.com/en-us/learn/csharp
+
+; = semicolon
