@@ -26,3 +26,15 @@ You are absolutely right my friend. I had studied very much old languages when I
 1. https://dotnet.microsoft.com/en-us/learn/csharp
 
 ; = semicolon
+"" = literal strings
+'' = data types
+
+char(character) literal = ('b');
+
+int(integer) literal = (123);
+
+# To create a decimal literal, append the letter m after the number. In this context, the m is called a literal suffix. The literal suffix tells the compiler you wish to work with a value of type decimal.
+decimal literal = (12.30m); | Output = 12.30
+
+> The bool literals represent the idea of truth and falsehood. We'll use bool values extensively when we start to add decision logic to our applications. We'll evaluate expressions to see whether the expression is true or false.
+bool(boolean) literal = (true); / (false);
