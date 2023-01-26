@@ -25,6 +25,8 @@ You are absolutely right my friend. I had studied very much old languages when I
 
 1. https://dotnet.microsoft.com/en-us/learn/csharp
 
+## Data types
+
 ; = semicolon
 "" = literal strings
 '' = data types
@@ -33,8 +35,61 @@ char(character) literal = ('b');
 
 int(integer) literal = (123);
 
-# To create a decimal literal, append the letter m after the number. In this context, the m is called a literal suffix. The literal suffix tells the compiler you wish to work with a value of type decimal.
+> To create a decimal literal, append the letter m after the number. In this context, the m is called a literal suffix. The literal suffix tells the compiler you wish to work with a value of type decimal.
 decimal literal = (12.30m); | Output = 12.30
 
 > The bool literals represent the idea of truth and falsehood. We'll use bool values extensively when we start to add decision logic to our applications. We'll evaluate expressions to see whether the expression is true or false.
 bool(boolean) literal = (true); / (false);
+
+`string` for words, phrases, or any alphanumeric data for presentation, not calculation
+`char`  for a single alphanumeric character
+`int` for a whole number
+`decimal` for a number with a decimal
+`bool` for a true/false value
+
+## Declare variables
+
+When we need to work with data from outside of our code, we'll declare a variable.
+
+> Declaring a variable
+
+`_` = underscore for special purpose
+
+Variable name rules :
+
+* **Variable names** must not be a C# keyword. For example, you can't use the following variable declarations: decimal decimal; or string string;.
+* **Variable names** are case-sensitive, meaning that string Value; and string value; are two different variables.
+* Variable names should be descriptive and meaningful in your application. Choose a name for your variable that represents the kind of data it will hold.
+* Don't use contractions, because the name of the variable (and therefore, its purpose) may be unclear to others who are reading your code. Example : Gonna, Wanna
+* Variable names shouldn't include the data type of the variable. You might see some advice to use a style like `string strValue`;. That advice is no longer current.
+* Variable names should use camel case ^ ^, which is a style of writing that uses a lower-case letter at the beginning of the first word and an upper-case letter at the beginning of each subsequent word. For example: string thisIsCamelCase;.
+
+Variable name Good Example : 
+
+* The example string `firstName`; follows all of these rules and conventions, assuming you want to use this variable to store data that represents someone's first name.
+
+Few examples of variable declarations using the data types we learned about previously.
+
+```bash
+char userOption;
+
+int gameScore;
+
+decimal particlesPerMillion;
+
+bool processedCustomer;
+```
+
+variable example:
+
+```
+string
+char
+int 
+decimal
+bool
+```
+
+* Variables are temporary values you store in the computer's memory.
+* Before you can use a variable, you have to declare it.
+* To declare a variable, first select a data type for the kind of data you want to store, then give the variable a name that follows the rules.
